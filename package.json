@@ -1,0 +1,16 @@
+{
+  "name": "ifc-js-projectviewer",
+  "version": "0.0.1",
+  "description": "Benjamin Smith Project Viewer",
+  "module": "model-list.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "Benjamin Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2"
+  }
+}
